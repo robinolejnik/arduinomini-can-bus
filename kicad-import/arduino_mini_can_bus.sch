@@ -1,0 +1,402 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7300 3100 7500 3100
+Wire Wire Line
+	7500 3100 7500 4400
+Wire Wire Line
+	7500 4400 7400 4400
+Wire Wire Line
+	7300 3000 7600 3000
+Wire Wire Line
+	7600 3000 7600 4200
+Wire Wire Line
+	7400 4200 7600 4200
+Wire Wire Line
+	7400 4600 7700 4600
+Wire Wire Line
+	7700 4600 7700 2900
+Wire Wire Line
+	7700 2900 7300 2900
+Wire Wire Line
+	7400 4000 7800 4000
+Wire Wire Line
+	7800 4000 7800 3700
+Wire Wire Line
+	7300 3200 7800 3200
+Wire Wire Line
+	7800 3200 7800 3300
+Wire Wire Line
+	5400 3800 5900 3800
+Wire Wire Line
+	5400 4000 5900 4000
+Wire Wire Line
+	3900 4000 4200 4000
+Wire Wire Line
+	4200 4000 4300 4000
+Wire Wire Line
+	4200 3700 4200 4000
+Connection ~ 4200 4000
+Wire Wire Line
+	3900 3800 4000 3800
+Wire Wire Line
+	4000 3800 4300 3800
+Wire Wire Line
+	4000 3700 4000 3800
+Connection ~ 4000 3800
+Wire Wire Line
+	5900 5200 5800 5200
+Wire Wire Line
+	5800 5200 5800 5300
+Wire Wire Line
+	6400 2400 6200 2400
+Wire Wire Line
+	6200 2400 6200 2700
+Wire Wire Line
+	7300 2200 7500 2200
+Wire Wire Line
+	7500 2200 7500 2500
+Wire Wire Line
+	3900 3900 4000 3900
+Wire Wire Line
+	4000 3900 4000 4100
+Wire Wire Line
+	5500 4800 5500 4700
+Wire Wire Line
+	7300 2400 7400 2400
+Wire Wire Line
+	7400 2400 7400 1900
+Wire Wire Line
+	8000 3200 8000 3300
+Wire Wire Line
+	5800 4900 5800 5000
+Wire Wire Line
+	5800 5000 5900 5000
+Wire Wire Line
+	4200 3300 4200 3200
+Wire Wire Line
+	4200 3200 4000 3200
+Wire Wire Line
+	4000 3200 4000 3300
+Wire Wire Line
+	7400 3800 8000 3800
+Wire Wire Line
+	8000 3800 8000 3700
+Wire Wire Line
+	6400 2500 5900 2500
+Wire Wire Line
+	5500 2500 5400 2500
+Wire Wire Line
+	5400 2500 5400 2600
+Wire Wire Line
+	5400 2600 6400 2600
+Wire Wire Line
+	5700 2300 5700 2200
+Wire Wire Line
+	5700 2200 5800 2200
+Wire Wire Line
+	7400 4800 7500 4800
+Wire Wire Line
+	5400 4200 5500 4200
+Wire Wire Line
+	5500 4200 5500 4300
+Wire Wire Line
+	6300 3100 6400 3100
+Wire Wire Line
+	5900 3100 5800 3100
+Wire Wire Line
+	5900 6200 5800 6200
+$Comp
+L arduino_mini_can_bus-eagle-import:ARDUINO_MINI U1
+U 1 1 94FABF20
+P 6800 2600
+F 0 "U1" H 6500 3230 59  0000 L BNN
+F 1 "ARDUINO_MINI" H 6500 1800 59  0000 L BNN
+F 2 "arduino_mini_can_bus:ARDUINO_MINI" H 6800 2600 50  0001 C CNN
+F 3 "" H 6800 2600 50  0001 C CNN
+	1    6800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:MCP2515SO U2
+U 1 1 4E0AB7A9
+P 6600 4900
+F 0 "U2" H 6150 6250 42  0000 L BNN
+F 1 "MCP2515" H 6350 6250 42  0000 L BNN
+F 2 "arduino_mini_can_bus:SO18L" H 6600 4900 50  0001 C CNN
+F 3 "" H 6600 4900 50  0001 C CNN
+	1    6600 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:MCP2551SN U3
+U 1 1 C6A83FC2
+P 4800 4000
+F 0 "U3" H 4900 4450 59  0000 L BNN
+F 1 "MCP2551" H 4400 4450 59  0000 L BNN
+F 2 "arduino_mini_can_bus:SO-08" H 4800 4000 50  0001 C CNN
+F 3 "" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:SJ CS1
+U 1 1 17197021
+P 7800 3500
+F 0 "CS1" V 7850 3850 59  0000 L BNN
+F 1 "SJ" V 7750 3850 59  0000 L BNN
+F 2 "arduino_mini_can_bus:SJ" H 7800 3500 50  0001 C CNN
+F 3 "" H 7800 3500 50  0001 C CNN
+	1    7800 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:MA03-1 CAN1
+U 1 1 70029B44
+P 3600 3900
+F 0 "CAN1" H 3550 4130 59  0000 L BNN
+F 1 "MA03-1" H 3400 3600 59  0001 L BNN
+F 2 "arduino_mini_can_bus:MA03-1" H 3600 3900 50  0001 C CNN
+F 3 "" H 3600 3900 50  0001 C CNN
+	1    3600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:R-EU_0207_10 R1
+U 1 1 5FC72806
+P 8000 3500
+F 0 "R1" V 8100 3300 59  0000 L BNN
+F 1 "10k" V 8000 3250 59  0000 L BNN
+F 2 "arduino_mini_can_bus:0207_10" H 8000 3500 50  0001 C CNN
+F 3 "" H 8000 3500 50  0001 C CNN
+	1    8000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:R-EU_0207_10 R2
+U 1 1 855FDFDB
+P 5500 4500
+F 0 "R2" V 5550 4600 59  0000 L BNN
+F 1 "see CAN driver datasheet for value" V 5450 4600 59  0000 L BNN
+F 2 "arduino_mini_can_bus:0207_10" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:SJ TERM1
+U 1 1 2AB3D0A0
+P 4000 3500
+F 0 "TERM1" V 4150 3650 59  0000 L BNN
+F 1 "SJ" V 4250 3650 59  0000 L BNN
+F 2 "arduino_mini_can_bus:SJ" H 4000 3500 50  0001 C CNN
+F 3 "" H 4000 3500 50  0001 C CNN
+	1    4000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:R-EU_0207_10 R3
+U 1 1 93EDAD52
+P 4200 3500
+F 0 "R3" V 4300 3300 59  0000 L BNN
+F 1 "120" V 4200 3250 59  0000 L BNN
+F 2 "arduino_mini_can_bus:0207_10" H 4200 3500 50  0001 C CNN
+F 3 "" H 4200 3500 50  0001 C CNN
+	1    4200 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:SJ2W INT1
+U 1 1 196A3881
+P 5700 2500
+F 0 "INT1" V 6000 2450 59  0000 L BNN
+F 1 "SJ2W" V 5900 2450 59  0000 L BNN
+F 2 "arduino_mini_can_bus:SJ_2" H 5700 2500 50  0001 C CNN
+F 3 "" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L arduino_mini_can_bus-eagle-import:SJ SCK1
+U 1 1 01C16EEA
+P 6100 3100
+F 0 "SCK1" H 5900 3200 59  0000 L BNN
+F 1 "SJ" H 6200 3200 59  0000 L BNN
+F 2 "arduino_mini_can_bus:SJ" H 6100 3100 50  0001 C CNN
+F 3 "" H 6100 3100 50  0001 C CNN
+	1    6100 3100
+	-1   0    0    1   
+$EndComp
+Text GLabel 4300 4300 0    50   BiDi ~ 0
+VREF
+$Comp
+L arduino_mini_can_bus-eagle-import:MCP2551SN U3
+U 2 1 CB4C03D8
+P 4800 2550
+AR Path="/CB4C03D8" Ref="U3"  Part="2" 
+AR Path="/" Ref="U3"  Part="2" 
+F 0 "U3" H 4700 2550 59  0000 L BNN
+F 1 "MCP2551" H 4400 2050 59  0001 L BNN
+F 2 "arduino_mini_can_bus:SO-08" H 4800 2550 50  0001 C CNN
+F 3 "" H 4800 2550 50  0001 C CNN
+	2    4800 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5800 3100 0    50   BiDi ~ 0
+SCK
+Text GLabel 5800 2200 2    50   BiDi ~ 0
+INT
+Text GLabel 7500 4800 2    50   BiDi ~ 0
+INT
+Text GLabel 5800 6200 0    50   BiDi ~ 0
+SCK
+$Comp
+L power:VCC #PWR0101
+U 1 1 616692C6
+P 5800 4900
+F 0 "#PWR0101" H 5800 4750 50  0001 C CNN
+F 1 "VCC" H 5815 5073 50  0000 C CNN
+F 2 "" H 5800 4900 50  0001 C CNN
+F 3 "" H 5800 4900 50  0001 C CNN
+	1    5800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61669CD1
+P 5800 5300
+F 0 "#PWR0102" H 5800 5050 50  0001 C CNN
+F 1 "GND" H 5805 5127 50  0000 C CNN
+F 2 "" H 5800 5300 50  0001 C CNN
+F 3 "" H 5800 5300 50  0001 C CNN
+	1    5800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6166A273
+P 5500 4800
+F 0 "#PWR0103" H 5500 4550 50  0001 C CNN
+F 1 "GND" H 5505 4627 50  0000 C CNN
+F 2 "" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 6166A4F8
+P 8000 3200
+F 0 "#PWR0104" H 8000 3050 50  0001 C CNN
+F 1 "VCC" H 8015 3373 50  0000 C CNN
+F 2 "" H 8000 3200 50  0001 C CNN
+F 3 "" H 8000 3200 50  0001 C CNN
+	1    8000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 6166A9EE
+P 7400 1900
+F 0 "#PWR0105" H 7400 1750 50  0001 C CNN
+F 1 "VCC" H 7415 2073 50  0000 C CNN
+F 2 "" H 7400 1900 50  0001 C CNN
+F 3 "" H 7400 1900 50  0001 C CNN
+	1    7400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 6166AC74
+P 7500 2500
+F 0 "#PWR0106" H 7500 2250 50  0001 C CNN
+F 1 "GND" H 7505 2327 50  0000 C CNN
+F 2 "" H 7500 2500 50  0001 C CNN
+F 3 "" H 7500 2500 50  0001 C CNN
+	1    7500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 6166AFD4
+P 6200 2700
+F 0 "#PWR0107" H 6200 2450 50  0001 C CNN
+F 1 "GND" H 6205 2527 50  0000 C CNN
+F 2 "" H 6200 2700 50  0001 C CNN
+F 3 "" H 6200 2700 50  0001 C CNN
+	1    6200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 6166B20F
+P 4000 4100
+F 0 "#PWR0108" H 4000 3850 50  0001 C CNN
+F 1 "GND" H 3850 4000 50  0000 C CNN
+F 2 "" H 4000 4100 50  0001 C CNN
+F 3 "" H 4000 4100 50  0001 C CNN
+	1    4000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 6166B60B
+P 4800 2250
+F 0 "#PWR0109" H 4800 2100 50  0001 C CNN
+F 1 "VCC" H 4815 2423 50  0000 C CNN
+F 2 "" H 4800 2250 50  0001 C CNN
+F 3 "" H 4800 2250 50  0001 C CNN
+	1    4800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6166C151
+P 4800 2850
+F 0 "#PWR0110" H 4800 2600 50  0001 C CNN
+F 1 "GND" H 4805 2677 50  0000 C CNN
+F 2 "" H 4800 2850 50  0001 C CNN
+F 3 "" H 4800 2850 50  0001 C CNN
+	1    4800 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 2450 5800 0    150  ~ 0
+Be careful!\nI've actually never build\nand tested this circuit/PCB
+NoConn ~ 5900 5800
+NoConn ~ 5900 6000
+NoConn ~ 7300 2100
+NoConn ~ 7300 2300
+NoConn ~ 7300 2500
+NoConn ~ 7300 2600
+NoConn ~ 7300 2700
+NoConn ~ 7300 2800
+NoConn ~ 6400 3000
+NoConn ~ 6400 3200
+NoConn ~ 6400 2900
+NoConn ~ 6400 2800
+NoConn ~ 6400 2700
+NoConn ~ 6400 2300
+NoConn ~ 6400 2200
+NoConn ~ 6400 2100
+NoConn ~ 7400 5800
+NoConn ~ 7400 5600
+NoConn ~ 7400 5400
+NoConn ~ 7400 5200
+NoConn ~ 7400 5000
+Text GLabel 3750 4300 2    50   BiDi ~ 0
+VREF
+NoConn ~ 3750 4300
+$EndSCHEMATC

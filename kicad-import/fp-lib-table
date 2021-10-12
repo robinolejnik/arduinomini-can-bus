@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name arduino_mini_can_bus)(type KiCad)(uri "$(KIPRJMOD)/arduino_mini_can_bus.pretty")(options "")(descr ""))
+)
